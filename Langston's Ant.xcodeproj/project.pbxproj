@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C6CB8CD225850CB005B194A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CB8CC225850CB005B194A /* main.cpp */; };
 		5C6CB8D5225850DF005B194A /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CB8D3225850DF005B194A /* Board.cpp */; };
+		5C6CB8D822585A62005B194A /* AntGPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CB8D622585A62005B194A /* AntGPS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		5C6CB8CC225850CB005B194A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5C6CB8D3225850DF005B194A /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
 		5C6CB8D4225850DF005B194A /* Board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
+		5C6CB8D622585A62005B194A /* AntGPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AntGPS.cpp; sourceTree = "<group>"; };
+		5C6CB8D722585A62005B194A /* AntGPS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AntGPS.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				5C6CB8CC225850CB005B194A /* main.cpp */,
 				5C6CB8D4225850DF005B194A /* Board.hpp */,
 				5C6CB8D3225850DF005B194A /* Board.cpp */,
+				5C6CB8D722585A62005B194A /* AntGPS.hpp */,
+				5C6CB8D622585A62005B194A /* AntGPS.cpp */,
 			);
 			path = "Langston's Ant";
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6CB8D822585A62005B194A /* AntGPS.cpp in Sources */,
 				5C6CB8D5225850DF005B194A /* Board.cpp in Sources */,
 				5C6CB8CD225850CB005B194A /* main.cpp in Sources */,
 			);
