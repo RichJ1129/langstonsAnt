@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C6CB8CD225850CB005B194A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CB8CC225850CB005B194A /* main.cpp */; };
+		5C6CB8D5225850DF005B194A /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CB8D3225850DF005B194A /* Board.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5C6CB8C9225850CB005B194A /* Langston's Ant */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Langston's Ant"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6CB8CC225850CB005B194A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C6CB8D3225850DF005B194A /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
+		5C6CB8D4225850DF005B194A /* Board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5C6CB8CC225850CB005B194A /* main.cpp */,
+				5C6CB8D4225850DF005B194A /* Board.hpp */,
+				5C6CB8D3225850DF005B194A /* Board.cpp */,
 			);
 			path = "Langston's Ant";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6CB8D5225850DF005B194A /* Board.cpp in Sources */,
 				5C6CB8CD225850CB005B194A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

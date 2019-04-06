@@ -7,9 +7,24 @@
 //
 
 #include <iostream>
+#include "Board.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    int boardRows;
+    int boardColumns;
+    
+    std::cout << "Please enter amount of rows: \n";
+    std::cin >> boardRows;
+    std::cout << "Please enter amount of columns: \n";
+    std::cin >> boardColumns;
+    
+    Board A(boardRows,boardColumns);
+    
+    A.displayBoard();
+    
+    
+    
+
     return 0;
 }
