@@ -1,11 +1,3 @@
-//
-//  Board.hpp
-//  Langston's Ant
-//
-//  Created by Richard Joseph on 4/5/19.
-//  Copyright © 2019 Richard Joseph. All rights reserved.
-//
-
 #ifndef Board_hpp
 #define Board_hpp
 
@@ -14,14 +6,23 @@
 class Board
 {
 private:
+    char **boardArray;
     int numRows;
     int numColumns;
-    char **boardArray;
     
 public:
     Board();
-    Board(int,int);
-    void displayBoard();
+    Board(int, int );
+    void setBoard(char, int, int);
+    char **getBoard();
+    void setNumRows(int);
+    int getRows();
+    void setNumColumns(int);
+    int getColumns();
+    char getColor(int, int);
+    void changeColor(int, int);
+    bool collision(int, int);
+    void deleteBoard();
 };
 
 #endif /* Board_hpp */
