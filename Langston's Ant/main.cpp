@@ -1,5 +1,5 @@
 /*********************************************************************
- ** Program name:matrixCalculator
+ ** Program name:Zoo Tycoon
  ** Author: Richard Joseph
  ** Date: 4/15/19
  ** Description: Function is called asking for user input to start program or
